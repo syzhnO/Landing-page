@@ -1,0 +1,32 @@
+.nav{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #313030;
+    
+}
+.nav__items{
+    
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, 25%);
+    
+    grid-auto-flow: dense;
+    width: 50%;
+    
+}
+.nav__item{
+    padding: 2rem;
+}
+.nav__item a{
+    
+    font-size: 0.8rem;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+.nav__item:hover{
+   
+    background-color: #ff3f40;
+}

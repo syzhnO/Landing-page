@@ -1,0 +1,286 @@
+.App {
+  font-family: "Open Sans";
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.block{
+  background: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.subtitle{
+  
+  margin-bottom: 4.8rem;
+  line-height: 28px;
+  color: #605f5f;
+}
+
+.button{
+  cursor:pointer;
+  border-radius: 0.3rem;
+  background-color: #ff2d2d;
+  padding: 1.25rem 3.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+  border: none;
+}
+.button:hover{
+  background: transparent;
+  border: 1px solid #ff2d2d;
+  color: #ff2d2d;
+}
+.title{
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0.42px;
+  margin-bottom: 40px;
+}
+.title_center{
+  text-align: center;
+}
+.subtitle_center{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.product__text{
+  width: 504px;
+  margin: 0 auto;
+}
+.after{
+  content: '';
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 2px;
+  background: #ff2d2d; 
+}
+.products__nav{
+  
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; 
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.link a{
+  font-size: 22px;
+  font-weight: 400; 
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #565656;
+}
+.link .active{
+  color: #ff2d2d;
+}
+.items{
+  
+  
+  margin-top: 100px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; 
+  margin-bottom: 100px;
+}
+.item{
+  width: 280px;
+  height: 280px;
+ 
+}
+.item1{
+  background: #f5f0dd;
+}
+.item2{
+  background: #61dafb;
+}
+.item3{
+  background: #ff2d2d;
+}
+.item4{
+  background: #7600da;
+}
+.item5{
+  background: #48da00;
+}
+
+.tips__block{
+  background: #f5f0dd;
+}
+.tips__title{
+  text-align: center;
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1.05px;
+  text-transform: none;
+}
+.tips__subtitle{
+  text-align: center;
+  color: #ffffff;
+}
+.tips__form{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.input{
+  border-radius: 0.3rem;
+  padding: 1.25rem 3.75rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  margin-right: 20px;
+  text-align: left;
+  
+}
+.tips__input{
+  
+  width: 521px;
+}
+.after_left{
+  margin-left: 0;
+}
+.get__form{
+  margin-top: 100px; 
+}
+.get__text{
+  width: 680px;
+}
+.input_dark{
+  background: #e5e5e5;
+}
+.text_area{
+  margin-top: 60px;
+  display: block;
+  width: 555px;
+}
+.get__button{
+  margin-top: 110px;
+  width: 675px;
+
+}
+.contact{
+  margin-top: 100px;
+  background: #2d2d2d;
+  padding-top: 145px;
+  padding-left: 80px;
+  padding-bottom: 145px;
+  padding-right: 20px;
+}
+.name{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34.06px;
+  text-transform: uppercase;  
+}
+.inf{
+  opacity: 0.8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.get__content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.footer__block{
+  background: #313030;
+  padding: 20px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text{
+  color: #b8b8b8;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.team__text{
+  width: 400px;
+
+}
+.people{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+}
+.avatar
+{
+  width: 321px;
+
+}
+.people__name{
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.28px;
+  margin-bottom: 20px;
+}
+.people__subtitle{
+  width: 700px;
+  margin-bottom: 30px;
+}
+.social__nav{
+  display: flex;
+  margin-bottom: 100px;
+}
+.social_link a{
+  margin-right: 20px;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  color: #8f8f8f;
+  text-decoration: none;
+  
+}
+.people__link{
+  margin-right: 20px;
+}

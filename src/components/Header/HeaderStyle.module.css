@@ -1,0 +1,39 @@
+.block{
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #f6f2f2;
+    height: 100vh;
+}
+.header__item{
+    
+    margin-top: 10rem;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 50%);
+    grid-row-gap: 1fr 1fr;
+    align-items: center;
+    
+    
+}
+.text{
+    text-align: left;
+}
+.video{
+    text-align: center;
+}
+.heading{
+    letter-spacing: 1.5px;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase;
+}
+iframe{
+
+    width: 35rem;
+    height: 20rem;
+    box-shadow: -2px -14px 73px rgba(0, 0, 0, 0.29);
+    display: grid;
+    grid-template-columns: 1fr minmax(320px, 560px);
+    
+}
